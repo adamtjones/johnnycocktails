@@ -1,0 +1,53 @@
+body {
+	color:white;
+	background-color: black;
+
+}
+.headline {
+	width:50%;
+	text-align:center;
+	color:white;
+	margin:auto;
+	display:block;
+}
+.image {
+	width:60%;
+	margin:auto;
+	display:block;
+	margin-top: 20px;
+}
+img.image {
+	padding-left: 50px;
+}
+
+
+footer {
+	color:black;
+	background-color: white;
+	margin-top: 20px;
+	text-align: center;
+	text-decoration: none;
+}
+
+@media only screen and (max-width: 1200px) {
+	.mainLogo {
+		margin: 0% auto;
+	}
+}
+@media only screen and (max-width: 600px) {
+	#mainLogo {
+		visibility: hidden;
+		display: none;
+	}
+}
+@media only screen and (max-width: 1200px) {
+	.ul {
+		display: inline;
+	}
+}
+@media only screen and (max-width: 1200px) {
+	.headline {
+		margin: 0% auto;
+	}
+}
+@media only screen and (max-width : 1200px) {
